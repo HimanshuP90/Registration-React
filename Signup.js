@@ -11,14 +11,7 @@ import {PageHeader} from 'react-bootstrap';
 class App extends React.Component {
   constructor(props) {
      super(props);
-
-     this.state = {
-        data: 'Initial data...'
-     }
-
      this.confirm = this.confirm.bind(this);
-
-
   };
   confirm(e) {
     e.preventDefault();
