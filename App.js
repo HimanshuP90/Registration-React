@@ -1,11 +1,11 @@
 import React from 'react';
-import ContactManager from './ContactManager';
+import Signup from './Signup';
 
 class App extends React.Component {
    render() {
       return (
          <div>
-         <ContactManager />
+         <Signup />
          </div>
       );
    }
